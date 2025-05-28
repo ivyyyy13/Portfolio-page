@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Ivanna Agbai</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripting.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">Ivy</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="mobile-nav-toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewbox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-subtitle">Hello! I'm</span>
+          <h1 class="hero-title">ivanna Agbai</h1>
+          <p class="hero-description">
+            I'm a creative UI/UX designer and front-end developer who loves
+            crafting beautiful, user-friendly digital experiences. I believe
+            design should be both functional and delightful! ✨
+          </p>
+          <div class="hero-cta">
+            <a href="#work" class="btn">View My Work</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="fade-in">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image fade-in">
+            <img src="/api/placeholder/600/600" alt="Sarah Chen's Portrait" />
+          </div>
+          <div class="about-text fade-in">
+            <p>
+              Hi there! I'm Ivanna, a passionate designer and developer based in
+              Nigeria. I love creating digital experiences that make people
+              smile and solve real problems. My journey started in 2024 when I
+              fell in love with the perfect blend of creativity and logic that
+              web development offers.
+            </p>
+            <p>
+              When I'm not coding or designing, you can find me exploring coffee
+              shops, practicing yoga, or planning my next travel adventure. I
+              believe that diverse experiences make me a better designer!
+            </p>
+            <p>Here are some technologies I love working with:</p>
+            <ul class="skills-list">
+              <li>JavaScript & TypeScript</li>
+              <li>React & Vue.js</li>
+              <li>Figma & Adobe XD</li>
+              <li>CSS & Sass</li>
+              <li>Node.js</li>
+              <li>WordPress</li>
+              <li>Framer Motion</li>
+              <li>TailwindCSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+      <div class="container">
+        <h2 class="fade-in">My Recent Work</h2>
+        <p class="fade-in">
+          Here are some projects I've poured my heart into. Want to see more?
+          <a href="#contact">Let's chat!</a> 💕
+        </p>
+
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img
+                src="/api/placeholder/600/400"
+                alt="Blooming Beauty E-commerce"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Blooming Beauty</h3>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Shopify</span>
+                <span class="project-tag">Framer Motion</span>
+              </div>
+              <p class="project-description">
+                A gorgeous e-commerce platform for a sustainable beauty brand.
+                Features include product customization, eco-friendly packaging
+                options, and a loyalty rewards system.
+              </p>
+              <div class="project-links">
+                <a href="#" title="View Live">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="#" title="GitHub">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img src="/api/placeholder/600/400" alt="Wellness Tracker" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Mindful Moments</h3>
+              <div class="project-tags">
+                <span class="project-tag">Vue.js</span>
+                <span class="project-tag">Firebase</span>
+                <span class="project-tag">Chart.js</span>
+              </div>
+              <p class="project-description">
+                A wellness tracking app focused on mental health and self-care.
+                Includes mood tracking, meditation timers, and personalized
+                wellness insights with beautiful data visualizations.
+              </p>
+              <div class="project-links">
+                <a href="#" title="View Live">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="#" title="GitHub">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card fade-in">
+            <div class="project-image">
+              <img src="/api/placeholder/600/400" alt="Recipe App" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Cozy Kitchen</h3>
+              <div class="project-tags">
+                <span class="project-tag">React Native</span>
+                <span class="project-tag">Supabase</span>
+                <span class="project-tag">TypeScript</span>
+              </div>
+              <p class="project-description">
+                A delightful recipe sharing app where food lovers can discover,
+                save, and share their favorite recipes. Features include meal
+                planning, grocery lists, and a vibrant community.
+              </p>
+              <div class="project-links">
+                <a href="#" title="View Live">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="#" title="GitHub">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="fade-in">Where I've Grown</h2>
+        <div class="experience-tabs">
+          <div class="tabs-buttons">
+            <button class="tab-button active" data-tab="job1">
+              Bloom Studio
+            </button>
+            <button class="tab-button" data-tab="job2">Creative Co</button>
+            <button class="tab-button" data-tab="job3">Pixel Perfect</button>
+          </div>
+
+          <div id="job1" class="tab-content active">
+            <h3 class="job-title">Senior UI/UX Designer</h3>
+            <div class="job-company">Bloom Studio</div>
+            <div class="job-duration">March 2022 - Present</div>
+            <div class="job-description">
+              <ul>
+                <li>
+                  Lead designer for 3 major product launches, creating cohesive
+                  design systems that improved user satisfaction by 45%
+                </li>
+                <li>
+                  Collaborated with female-founded startups to create inclusive
+                  and accessible digital experiences
+                </li>
+                <li>
+                  Mentored 2 junior designers, helping them develop their skills
+                  in user research and visual design
+                </li>
+                <li>
+                  Introduced new prototyping workflows that reduced
+                  design-to-development time by 30%
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="job2" class="tab-content">
+            <h3 class="job-title">Front-end Developer</h3>
+            <div class="job-company">Creative Co</div>
+            <div class="job-duration">June 2020 - February 2022</div>
+            <div class="job-description">
+              <ul>
+                <li>
+                  Developed responsive websites for lifestyle and wellness
+                  brands, focusing on beautiful animations and smooth user
+                  experiences
+                </li>
+                <li>
+                  Implemented accessibility best practices, achieving WCAG 2.1
+                  AA compliance across all projects
+                </li>
+                <li>
+                  Collaborated with designers to bring creative visions to life
+                  using modern CSS and JavaScript
+                </li>
+                <li>
+                  Optimized website performance, achieving 90+ Lighthouse scores
+                  for all client projects
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="job3" class="tab-content">
+            <h3 class="job-title">Junior Developer</h3>
+            <div class="job-company">Pixel Perfect Agency</div>
+            <div class="job-duration">August 2018 - May 2020</div>
+            <div class="job-description">
+              <ul>
+                <li>
+                  Built custom WordPress themes for small businesses and
+                  personal brands
+                </li>
+                <li>
+                  Learned the fundamentals of user-centered design and
+                  responsive development
+                </li>
+                <li>
+                  Collaborated with senior developers to maintain and update
+                  existing client websites
+                </li>
+                <li>
+                  Participated in client meetings and learned to translate
+                  business needs into technical solutions
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="fade-in">Let's Create Together!</h2>
+        <p class="contact-description fade-in">
+          I'm always excited to work on new projects and meet creative people.
+          Whether you have a project in mind or just want to say hello, I'd love
+          to hear from you! 💌
+        </p>
+
+        <form class="contact-form fade-in">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Project Type (Optional)"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              placeholder="Tell me about your project or just say hi!"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-links">
+          <li>
+            <a href="https://github.com/" title="GitHub">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewbox="0 0 24 24"
+                e
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/feed/" title="LinkedIn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Dribbble">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path
+                  d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Instagram">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                ></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-text">
+          © 2025 ivanna Agbai. Made with 💖 and lots of coffee!
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
